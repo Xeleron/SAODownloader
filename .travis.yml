@@ -1,0 +1,11 @@
+dist: trusty
+
+addons:
+    sonarcloud:
+        organization: "xeleron-github"
+
+script:
+    - sonar-scanner
+
+language: csharp
+solution: SAODownloader.sln

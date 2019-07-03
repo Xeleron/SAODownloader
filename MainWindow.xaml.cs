@@ -1,8 +1,9 @@
 ﻿using System;
+using System.IO;
 using System.Net;
 using System.Windows;
 
-namespace Encode
+namespace SAODownloader
 {
     /// <summary>
     ///     Interaction logic for MainWindow.xaml
@@ -62,6 +63,8 @@ namespace Encode
         public MainWindow()
         {
             InitializeComponent();
+            foreach (var directory in new[] {"ENReview", "ENRelease", "JPReview", "JPRelease"})
+                Directory.CreateDirectory(directory);
         }
 
         private static string EncodeReleaseServerResourceName(string name)
