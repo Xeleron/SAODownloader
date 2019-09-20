@@ -119,25 +119,25 @@ namespace SAODownloader
 
         private void RadioButtonENReview_Checked(object sender, RoutedEventArgs e)
         {
-            _prefix = "/resources_fc/ie6n22b4/";
+            _prefix = "/resources18_fc/gte5bdyu9/";
             _folder = "ENReview";
         }
 
         private void RadioButtonENRelease_Checked(object sender, RoutedEventArgs e)
         {
-            _prefix = "/resources_fc/hiizaxgm8/";
+            _prefix = "/resources18_fc/fzin1ace0/";
             _folder = "ENRelease";
         }
 
         private void RadioButtonJPRelease_Checked(object sender, RoutedEventArgs e)
         {
-            _prefix = "/resources/ie6n22b4/";
+            _prefix = "/resources18/gte5bdyu9/";
             _folder = "JPRelease";
         }
 
         private void RadioButtonJPReview_Checked(object sender, RoutedEventArgs e)
         {
-            _prefix = "/resources/hiizaxgm8/";
+            _prefix = "/resources18/fzin1ace0/";
             _folder = "JPReview";
         }
     }
